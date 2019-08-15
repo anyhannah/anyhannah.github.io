@@ -17,8 +17,10 @@ linkedin_username: hannah-an
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a first-year PhD student at the University of Rochester.
-
+  I'm a first-year PhD student at the University of Rochester in [Computer Science](https://www.cs.rochester.edu/). My research is in Natural Language Understanding and/or Computatinal Linguistics, with a focus on building ontologies and studying syntactic/semantic phenomena in natural language. 
+  
+  I work with [James Allen](http://www.cs.rochester.edu/~james/). I am also involved in [FACTS.lab](http://factslab.io/)'s [MegaAttitude Project](http://megaattitude.io/).
+  
 # Projects Section
 # projects_title: Projects
 
