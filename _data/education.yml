@@ -1,7 +1,9 @@
 - layout: left
   name: University of Rochester
-  dates: 2019 -
+  dates: 2019 - current
   qualification: PhD Computer Science
+  Description: |
+    Area of specialization: Artificial Intelligence 
 
 - layout: left
   name: University of Rochester
