@@ -19,13 +19,17 @@
    <!---         {%- if site.data.experience.size > 0 -%}
                 {%- include experience.html -%}
             {%- endif -%}--->
-
-            {%- if site.data.education.size > 0 -%}
-                {%- include education.html -%}
+            
+            {%- if site.data.publications.size > 0 -%}
+                {%- include publications.html -%}
             {%- endif -%}
             
             {%- if site.data.teaching.size > 0 -%}
                 {%- include teaching.html -%}
+            {%- endif -%}
+            
+            {%- if site.data.education.size > 0 -%}
+                {%- include education.html -%}
             {%- endif -%}
             
 <!--   -          {%- include more.html -%}- -->
