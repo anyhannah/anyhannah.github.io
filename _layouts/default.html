@@ -23,8 +23,12 @@
             {%- if site.data.education.size > 0 -%}
                 {%- include education.html -%}
             {%- endif -%}
-
-  -          {%- include more.html -%}-
+            
+            {%- if site.data.teaching.size > 0 -%}
+                {%- include teaching.html -%}
+            {%- endif -%}
+            
+<!--   -          {%- include more.html -%}- -->
 
         </div>
     </main>
