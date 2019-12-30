@@ -1,6 +1,13 @@
 - layout: left
-  name: University of Rochester
-  dates: 2018
-  qualification: Fall 2018
+#   name: University of Rochester
+  dates: Fall 2018
+  qualification: Teaching Assistant
   description: |
-    LIN110 Intro to Linguistic Analysis (TA)
+    LIN 110: Intro to Linguistic Analysis
+
+- layout: left
+#   name: University of Rochester
+  dates: Fall 2019
+  qualification: Teaching Assistant
+  description: |
+    CSC 247/447: Natural Language Processing
