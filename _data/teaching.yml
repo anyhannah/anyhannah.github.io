@@ -1,13 +1,13 @@
 - layout: left
 #   name: University of Rochester
+  dates: Spring 2020
+  qualification: Teaching Assistant
+  description: |
+    CSC 247/447: Natural Language Processing
+
+- layout: left
+#   name: University of Rochester
   dates: Fall 2018
   qualification: Teaching Assistant
   description: |
     LIN 110: Intro to Linguistic Analysis
-
-- layout: left
-#   name: University of Rochester
-  dates: Fall 2019
-  qualification: Teaching Assistant
-  description: |
-    CSC 247/447: Natural Language Processing
