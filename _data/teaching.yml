@@ -1,5 +1,12 @@
 - layout: left
 #   name: University of Rochester
+  dates: Fall 2020
+  qualification: Teaching Assistant
+  description: |
+    CSC 442: Introduction to Artificial Intelligence
+
+- layout: left
+#   name: University of Rochester
   dates: Spring 2020
   qualification: Teaching Assistant
   description: |
@@ -10,4 +17,4 @@
   dates: Fall 2018
   qualification: Teaching Assistant
   description: |
-    LIN 110: Intro to Linguistic Analysis
+    LIN 110: Introduction to Linguistic Analysis
