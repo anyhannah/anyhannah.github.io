@@ -1,4 +1,11 @@
 - layout: left
+  name: University of Rochester
+  dates: Spring 2021
+  qualification: Teaching Assistant
+  description: |
+    CSC 247/447: Natural Language Processing
+
+- layout: left
 #   name: University of Rochester
   dates: Fall 2020
   qualification: Teaching Assistant
@@ -18,3 +25,10 @@
   qualification: Teaching Assistant
   description: |
     LIN 110: Introduction to Linguistic Analysis
+
+- layout: left
+  name: CLUE Academic Support Program, University of Washington
+  dates: Fall 2016 - Spring 2017
+  qualification: Korean Tutor
+  description: |
+    Drop in Tutoring - Korean
