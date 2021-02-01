@@ -10,10 +10,6 @@
         <div class="wrapper">
 
             {%- include about.html -%}
-          
-  <!---          {%- if site.data.projects.size > 0 -%}
-                {%- include projects.html -%}
-            {%- endif -%}--->
 
    <!---         {%- if site.data.experience.size > 0 -%}
                 {%- include experience.html -%}
@@ -22,7 +18,14 @@
       <!---           {%- if site.data.papers.size > 0 -%}
                 {%- include papers.html -%}
             {%- endif -%}--->
-
+            
+            {%- if site.data.teaching.size > 0 -%}
+                {%- include teaching.html -%}
+            {%- endif -%}
+            
+            {%- if site.data.education.size > 0 -%}
+                {%- include education.html -%}
+            {%- endif -%}
             
         </div>
     </main>
