@@ -1,26 +1,28 @@
 - layout: left
   name: University of Rochester
+  dates:
+  qualification: 
+  description:
+    
+- layout: left
   dates: Spring 2021
   qualification: Teaching Assistant
   description: |
     CSC 247/447: Natural Language Processing
 
 - layout: left
-#   name: University of Rochester
   dates: Fall 2020
   qualification: Teaching Assistant
   description: |
     CSC 442: Introduction to Artificial Intelligence
 
 - layout: left
-#   name: University of Rochester
   dates: Spring 2020
   qualification: Teaching Assistant
   description: |
     CSC 247/447: Natural Language Processing
 
 - layout: left
-#   name: University of Rochester
   dates: Fall 2018
   qualification: Teaching Assistant
   description: |
