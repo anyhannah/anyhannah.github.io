@@ -29,8 +29,13 @@
     LIN 110: Introduction to Linguistic Analysis
 
 - layout: left
-  name: CLUE Academic Support Program, University of Washington
+  name: University of Washington
+  dates: 
+  qualification:
+  description:
+
+- layout: left
   dates: Fall 2016 - Spring 2017
   qualification: Korean Tutor
   description: |
-    Drop in Tutoring - Korean
+    Drop in Tutoring @ CLUE Academic Support Program
