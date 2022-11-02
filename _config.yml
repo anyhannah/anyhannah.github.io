@@ -1,52 +1,137 @@
 # Site
-# repository: sproogen/resume-theme
-# favicon: images/favicon.ico
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
 
 # Personal info
 name: Hannah YoungEun An
-title: URCS graduate student
+title: URCS Doctoral Student
 email: yan2@ur.rochester.edu
 website: hannah0n.github.io
+
+# Dark Mode (true/false/never)
+darkmode: never
 
 # Social links
 twitter_username: hannah0n
 github_username:  hannah0n
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
 linkedin_username: hannah-an
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a second-year PhD student at the University of Rochester in [Computer Science](https://www.cs.rochester.edu/). My research is in Natural Language Understanding and/or Computatinal Linguistics, with a focus on building ontologies and mining commonsense knowledge. Specifically, I work on building commonsense knowledge with a deep semantic lexicon and automating inference rule extraction with [James Allen](http://www.cs.rochester.edu/~james/), and organizing world knowledge into schemas to reflect the relational understanding between entities as well as between knowledge and action with [Len Schubert](https://www.cs.rochester.edu/~schubert/).
+  I'm a PhD candidate at the University of Rochester in [Computer Science](https://www.cs.rochester.edu/). My research spans across Natural Language Understanding/Processing, Computational Linguistics, and Artificial Intelligence. Specifically, I work on mining commonsense knowledge and organizing world knowledge into schemas to reflect the relational understanding between entities as well as between knowledge and action with [Len Schubert](https://www.cs.rochester.edu/~schubert/). I also work on detecting and recovering semantically compressed forms, including ellipsis, with [Aaron Steven White](http://aaronstevenwhite.io/).
 
-  In the past, I was involved in [FACTS.lab](http://factslab.io/)'s [MegaAttitude Project](http://megaattitude.io/) for building lexicon-scale datasets from crowdsourcing and studying the semantic contribution of lexical items and syntactic structures.
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        border: weak
+        title: Lexical knowledge and object schema acquisition
+        # link_text: Project Website
+        quote: >
+          Jo wanted to hang up the frame. Should we expect him to go looking for a nail or a TV?
+        description: | # this will include new lines to allow paragraphs
+          I work on obtaining commonly assumed knowledge about objects from various sources and representing the acquired knowledge in a formalized knowledge representation, called a schema. My work focuses on capturing <mark>lexical knowledge</mark>, such as hypernyms, properties, and usage information, to enable AI's human-like reasoning.
+      - layout: top-middle
+        title: Semantically compressed forms
+        quote: >
+          What do you mean by you think so?
+        description: |
+         I also work on making the underlying meaning of semantically compressed forms explicit, both in text and semantic graphs. The scope of the project is not just limited to <mark>elliptical utterances</mark> such as verb phrase ellipsis, but also covers non-elliptical referring expressions such as null complement anaphora.
+      - layout: top-middle
+        title: Neg(ation)-raising
+        link: megaattitude.io/projects/mega-negraising
+        quote: >
+          Jo doesn’t think that Bo left. Does Jo think that Bo didn't leave?
+        description: |
+         I was involved in [FACTS.lab](http://factslab.io/)'s [MegaAttitude Project](http://megaattitude.io/) for building lexicon-scale datasets from crowdsourcing and studying the <mark>semantic contribution</mark> of lexical items and syntactic structures.
 
-#  For CS400 fake proposal reviews: *[proposal](https://docs.google.com/gview?url=https://github.com/hannah0n/temp-400/raw/master/proposal.pdf).*
+  - title: Papers # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: "2022"
+        description: | # this will include new lines to allow paragraphs
+            James Allen, **Hannah An**, Ritwik  Bose, Will de Beaumont, and Choh Man Teng. (2022). [COLLIE: a broad-coverage ontology and lexicon of verbs in English](https://link.springer.com/article/10.1007/s10579-022-09600-9). In *Lang Resources & Evaluation*.
+      - layout: left
+        title: "2020"
+        description: |
+            James Allen, **Hannah An**, Ritwik  Bose, Will de Beaumont, and Choh Man Teng. (2020). [A Broad-Coverage Deep Semantic Lexicon for Verbs](https://www.aclweb.org/anthology/2020.lrec-1.396). In *Proceedings of the 12th Language Resources and Evaluation Conference (LREC 2020)*, pages 3243–3251. European Language Resources Association.
+      - layout: left
+        title: 
+        description: |
+            **Hannah Y. An** and Aaron S. White. (2020). [The lexical and grammatical sources of neg-raising inferences](https://scholarworks.umass.edu/scil/vol3/iss1/23). In *Proceedings of the Society for Computation in Linguistics (SCiL 2020)*, *3*(23), pages 220-233.
 
-# Projects Section
-# projects_title: Projects
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Rochester
+        caption: 2019 - Present
+        sub_title: PhD Computer Science
+        description: Specialized in Artificial Intelligence, I am currently working on making implicit content explicit in text and semantic graphs as well as a reasoning process.
+      - layout: left
+        title: University of Rochester
+        caption: 2019 - 2021
+        sub_title: MS Computer Science
+        description: I worked on aligning and developing ontologies with a deep semantic lexicon to support reasoning about commonsense knowledge, supervised by [James Allen](https://www.cs.rochester.edu/~james/).
+      - layout: left
+        title: University of Rochester
+        caption: 2017 - 2019
+        sub_title: MS Computational Linguistics
+        description: During my first two years in Rochester, many courses taught me key skills required in NLP and ML. As a part of the master's degree, I completed a final project 'Neg-raising inference and its syntactic contexts' supervised by [Aaron Steven White](http://aaronstevenwhite.io/).
+      - layout: left
+        title: University of Washington
+        caption: 2012 - 2017
+        sub_title: MA Linguistics
+        description: I graduated with Departmental Honors in Linguistics, with an unweighted 4.0 GPA in the courses offered from the department and with an honors thesis 'Characteristic determiners vs. adjectives in Korean' supervised by [Toshiyuki Ogihara](https://faculty.washington.edu/ogihara/).
+      - layout: left
+        title: University of Washington
+        caption: 2012 - 2017
+        sub_title: BS Applied and Computational Mathematical Sciences
+        description: My undergraduate degree with specialization in Scientific Computing and Numerical Algorithms prepared me to acquire a strong background in Math. Independent of my major program, I completed a minor in Philosophy as well.
 
-# Experience Section
-# experience_title: Experience
-
-papers_title: Papers
-
-teaching_title: Teaching
-
-# Education Section
-education_title: Education
-
-# More Section
-# more_title: A Little More About Me
-# more_content: | # this will include new lines to allow paragraphs
-#   Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-#    - Rock climbing
-#    - Gaming
-#    - Knitting
-#    - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - title: Teaching
+    layout: text
+    content: |
+        - Teaching Assistant: CSC 247/447 Natural Language Processing (Spring 2021, University of Rochester)
+        - Teaching Assistant: CSC 442 Introduction to Artificial Intelligence (Fall 2020, University of Rochester)
+        - Teaching Assistant: CSC 247/447 Natural Language Processing (Spring 2020, University of Rochester)
+        - Teaching Assistant: LIN 110 Introduction to Linguistic Analysis (Spring 2018, University of Rochester)
+        - Korean Tutor @ CLUE Academic Support Program (Fall 2016 - Spring 2017, University of Washington)
 
 # Footer
 footer_show_references: false
+# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme

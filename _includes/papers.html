@@ -1,6 +1,0 @@
-<div class="container papers-container">
-  <h3>{{ site.papers_title | default: "Papers" }}</h3>
-  {% for papers in site.data.papers %}
-    {% include {{ papers.layout | default: 'left' | append: ".html" }} item=papers %}
-  {% endfor %}
-</div>
