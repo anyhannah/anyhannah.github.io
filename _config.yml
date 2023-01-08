@@ -90,7 +90,7 @@ content:
       - layout: left
         title: 
         description: |
-            **Hannah Y. An** and Aaron S. White. (2020). [The lexical and grammatical sources of neg-raising inferences](https://scholarworks.umass.edu/scil/vol3/iss1/23). In *Proceedings of the Society for Computation in Linguistics (SCiL 2020)*, *3*(23), pages 220-233.
+            **Hannah Y. An** and Aaron S. White. (2020). [The lexical and grammatical sources of neg-raising inferences](https://scholarworks.umass.edu/scil/vol3/iss1/23). In *Proceedings of the Society for Computation in Linguistics (SCiL 2020)*, *3*(23), pages 220-233. <mark>[poster](https://hannah0n.github.io/assets/poster_SCiL2020.pdf)</mark>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
