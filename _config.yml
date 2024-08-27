@@ -63,12 +63,11 @@ content:
           I work on obtaining commonly assumed knowledge about objects from various sources and representing the acquired knowledge in a formalized knowledge representation, called a schema. My work focuses on capturing **lexical knowledge**&mdash;such as hypernyms, parts, materials, and usage information&mdash;to enable human-like reasoning in AI.
       - layout: top-middle
         border: weak
-        title: Lexical knowledge and object schema acquisition
-        # link_text: Project Website
+        title: Commonsense reasoning dataset
         quote: >
           Which is less likely to be, made at least partially, of a material that is a constituent of a ping pong paddle: a computer mouse or a tuning fork? 
         description: |
-          I create a manually curated dataset of binary-choice questions about shared materials between objects. Each entry in the dataset is carefully reviewed to challenge language models to consider detailed information on artifact parts and material compositions.
+          I create a **manually curated dataset** of binary-choice questions about shared materials between objects. Each entry in the dataset is carefully reviewed to challenge language models to consider detailed information on artifact parts and material compositions.
       - layout: top-middle
         border: weak
         title: Semantically compressed forms
@@ -90,23 +89,23 @@ content:
       - layout: left
         title: "2024"
         description: | # this will include new lines to allow paragraphs
-            Jiacan Yu, **Hannah Y. An**, and Lenhart K. Schubert. (2024). [Language Models Benefit from Preparation with Elicited Knowledge]. *Under Review*.
-      - layout: left
-        title: "2024"
-        description: |
-            William Gantt, Shabnam Behzad, **Hannah YoungEun An**, Yunmo Chen, Aaron Steven White, Benjamin Van Durme, and Mahsa Yarmohammadi. (2024). [MultiMUC: Multilingual Template Filling on MUC-4](https://aclanthology.org/2024.eacl-long.21/). In *Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)*, pages 349-368, St. Julian’s, Malta. Association for Computational Linguistics.
-      - layout: left
-        title: "2023"
-        description: |
-            James Allen, **Hannah An**, Ritwik  Bose, Will de Beaumont, and Choh Man Teng. (2023). [COLLIE: a broad-coverage ontology and lexicon of verbs in English](https://doi.org/10.1007/s10579-022-09600-9). In *Language Resources and Evaluation*, *57*(1), pages 57-86. Springer Nature.
-      - layout: left
-        title: "2020"
-        description: |
-            James Allen, **Hannah An**, Ritwik  Bose, Will de Beaumont, and Choh Man Teng. (2020). [A Broad-Coverage Deep Semantic Lexicon for Verbs](https://aclanthology.org/2020.lrec-1.396/). In *Proceedings of the Twelfth Language Resources and Evaluation Conference*, pages 3243–3251, Marseille, France. European Language Resources Association.
+            Jiacan Yu, **Hannah Y. An**, and Lenhart K. Schubert. (2024). Language Models Benefit from Preparation with Elicited Knowledge. *Under Review*.
       - layout: left
         title: 
         description: |
-            **Hannah Youngeun An** and Aaron Steven White. (2020). [The lexical and grammatical sources of neg-raising inferences](https://aclanthology.org/2020.scil-1.45/). In *Proceedings of the Society for Computation in Linguistics*, pages 386-399, New York, New York. Association for Computational Linguistics. [<mark>poster</mark>](https://anyhannah.github.io/assets/poster_SCiL2020.pdf)
+            William Gantt, Shabnam Behzad, **Hannah YoungEun An**, Yunmo Chen, Aaron Steven White, Benjamin Van Durme, and Mahsa Yarmohammadi. (2024). [MultiMUC: Multilingual Template Filling on MUC-4](https://aclanthology.org/2024.eacl-long.21/). In *Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)*, pages 349-368, St. Julian’s, Malta. Association for Computational Linguistics. [<mark>paper</mark>](https://aclanthology.org/2024.eacl-long.21.pdf)
+      - layout: left
+        title: "2023"
+        description: |
+            James Allen, **Hannah An**, Ritwik  Bose, Will de Beaumont, and Choh Man Teng. (2023). [COLLIE: a broad-coverage ontology and lexicon of verbs in English](https://doi.org/10.1007/s10579-022-09600-9). In *Language Resources and Evaluation*, *57*(1), pages 57-86. Springer Nature. [<mark>paper</mark>](https://link.springer.com/content/pdf/10.1007/s10579-022-09600-9.pdf)
+      - layout: left
+        title: "2020"
+        description: |
+            James Allen, **Hannah An**, Ritwik  Bose, Will de Beaumont, and Choh Man Teng. (2020). [A Broad-Coverage Deep Semantic Lexicon for Verbs](https://aclanthology.org/2020.lrec-1.396/). In *Proceedings of the Twelfth Language Resources and Evaluation Conference*, pages 3243–3251, Marseille, France. European Language Resources Association. [<mark>paper</mark>](https://aclanthology.org/2020.lrec-1.396.pdf)
+      - layout: left
+        title: 
+        description: |
+            **Hannah Youngeun An** and Aaron Steven White. (2020). [The lexical and grammatical sources of neg-raising inferences](https://aclanthology.org/2020.scil-1.45/). In *Proceedings of the Society for Computation in Linguistics*, pages 386-399, New York, New York. Association for Computational Linguistics. [<mark>paper</mark>](https://aclanthology.org/2020.scil-1.45.pdf) [<mark>poster</mark>](https://anyhannah.github.io/assets/poster_SCiL2020.pdf)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -115,7 +114,7 @@ content:
         title: University of Rochester
         caption: 2019 - Present
         sub_title: PhD Computer Science
-        description: Specialized in Artificial Intelligence, I am currently working on making implicit content explicit in text and semantic graphs as well as a reasoning process.
+        description: Specialized in Artificial Intelligence, I am currently working on making implicit content explicit and acquiring lexical knowledge for AI systems to support the reasoning process.
       - layout: left
         title: University of Rochester
         caption: 2019 - 2021
