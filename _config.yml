@@ -60,37 +60,53 @@ content:
         quote: >
           Jo wanted to hang up the frame. Should we expect him to go looking for a nail or a TV?
         description: | # this will include new lines to allow paragraphs
-          I work on obtaining commonly assumed knowledge about objects from various sources and representing the acquired knowledge in a formalized knowledge representation, called a schema. My work focuses on capturing <mark>lexical knowledge</mark>, such as hypernyms, properties, and usage information, to enable AI's human-like reasoning.
+          I work on obtaining commonly assumed knowledge about objects from various sources and representing the acquired knowledge in a formalized knowledge representation, called a schema. My work focuses on capturing **lexical knowledge**&mdash;such as hypernyms, parts, materials, and usage information&mdash;to enable human-like reasoning in AI.
+      - layout: top-middle
+        border: weak
+        title: Lexical knowledge and object schema acquisition
+        # link_text: Project Website
+        quote: >
+          Which is less likely to be, made at least partially, of a material that is a constituent of a ping pong paddle: a computer mouse or a tuning fork? 
+        description: |
+          I create a manually curated dataset of binary-choice questions about shared materials between objects. Each entry in the dataset is carefully reviewed to challenge language models to consider detailed information on artifact parts and material compositions.
       - layout: top-middle
         border: weak
         title: Semantically compressed forms
         quote: >
           What do you mean by you think so?
         description: |
-         I also work on making the underlying meaning of semantically compressed forms explicit, both in text and semantic graphs. The scope of the project is not just limited to <mark>elliptical utterances</mark> such as verb phrase ellipsis, but also covers non-elliptical referring expressions such as null complement anaphora.
+         I also work on making the underlying meaning of semantically compressed forms explicit in text. The scope of the project extends beyond **elliptical utterances**, such as verb phrase ellipsis, to include non-elliptical referring expressions, such as null complement anaphora.
       - layout: top-middle
         title: Neg(ation)-raising
         link: megaattitude.io/projects/mega-negraising
         quote: >
           Jo doesn’t think that Bo left. Does Jo think that Bo didn't leave?
         description: |
-         I was involved in [FACTS.lab](http://factslab.io/)'s [MegaAttitude Project](http://megaattitude.io/) for building lexicon-scale datasets from crowdsourcing and studying the <mark>semantic contribution</mark> of lexical items and syntactic structures.
+         I was involved in [FACTS.lab](http://factslab.io/)'s [MegaAttitude Project](http://megaattitude.io/) for building lexicon-scale datasets from crowdsourcing and studying the **semantic contribution** of lexical items and syntactic structures.
 
   - title: Papers # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: "2022"
+        title: "2024"
         description: | # this will include new lines to allow paragraphs
-            James Allen, **Hannah An**, Ritwik  Bose, Will de Beaumont, and Choh Man Teng. (2022). [COLLIE: a broad-coverage ontology and lexicon of verbs in English](https://link.springer.com/article/10.1007/s10579-022-09600-9). In *Lang Resources & Evaluation*.
+            Jiacan Yu, **Hannah Y. An**, and Lenhart K. Schubert. (2024). [Language Models Benefit from Preparation with Elicited Knowledge]. *Under Review*.
+      - layout: left
+        title: "2024"
+        description: |
+            William Gantt, Shabnam Behzad, **Hannah YoungEun An**, Yunmo Chen, Aaron Steven White, Benjamin Van Durme, and Mahsa Yarmohammadi. (2024). [MultiMUC: Multilingual Template Filling on MUC-4](https://aclanthology.org/2024.eacl-long.21/). In *Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)*, pages 349-368, St. Julian’s, Malta. Association for Computational Linguistics.
+      - layout: left
+        title: "2023"
+        description: |
+            James Allen, **Hannah An**, Ritwik  Bose, Will de Beaumont, and Choh Man Teng. (2023). [COLLIE: a broad-coverage ontology and lexicon of verbs in English](https://doi.org/10.1007/s10579-022-09600-9). In *Language Resources and Evaluation*, *57*(1), pages 57-86. Springer Nature.
       - layout: left
         title: "2020"
         description: |
-            James Allen, **Hannah An**, Ritwik  Bose, Will de Beaumont, and Choh Man Teng. (2020). [A Broad-Coverage Deep Semantic Lexicon for Verbs](https://www.aclweb.org/anthology/2020.lrec-1.396). In *Proceedings of the 12th Language Resources and Evaluation Conference (LREC 2020)*, pages 3243–3251. European Language Resources Association.
+            James Allen, **Hannah An**, Ritwik  Bose, Will de Beaumont, and Choh Man Teng. (2020). [A Broad-Coverage Deep Semantic Lexicon for Verbs](https://aclanthology.org/2020.lrec-1.396/). In *Proceedings of the Twelfth Language Resources and Evaluation Conference*, pages 3243–3251, Marseille, France. European Language Resources Association.
       - layout: left
         title: 
         description: |
-            **Hannah Y. An** and Aaron S. White. (2020). [The lexical and grammatical sources of neg-raising inferences](https://scholarworks.umass.edu/scil/vol3/iss1/23). In *Proceedings of the Society for Computation in Linguistics (SCiL 2020)*, *3*(23), pages 220-233. [<mark>poster</mark>](https://anyhannah.github.io/assets/poster_SCiL2020.pdf)
+            **Hannah Youngeun An** and Aaron Steven White. (2020). [The lexical and grammatical sources of neg-raising inferences](https://aclanthology.org/2020.scil-1.45/). In *Proceedings of the Society for Computation in Linguistics*, pages 386-399, New York, New York. Association for Computational Linguistics. [<mark>poster</mark>](https://anyhannah.github.io/assets/poster_SCiL2020.pdf)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
