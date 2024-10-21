@@ -89,7 +89,7 @@ content:
       - layout: left
         title: "2024"
         description: | # this will include new lines to allow paragraphs
-            **Hannah Y. An**, and Lenhart K. Schubert. (2024). [Large Language Models as a Tool for Mining Object Knowledge](https://doi.org/10.48550/arXiv.2410.12959). [<mark>paper</mark>](https://arxiv.org/pdf/2410.12959)
+            **Hannah YoungEun An**, and Lenhart K. Schubert. (2024). [Large Language Models as a Tool for Mining Object Knowledge](https://doi.org/10.48550/arXiv.2410.12959). [<mark>paper</mark>](https://arxiv.org/pdf/2410.12959)
       - layout: left
         title: 
         description: |
